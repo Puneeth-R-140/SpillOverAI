@@ -1,0 +1,21 @@
+# Python environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large generated data files
+data/scale_ecosystem.json
+
+# Local config & IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Outputs
+loss_curve.png

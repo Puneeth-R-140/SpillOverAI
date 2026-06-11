@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "RVCE",
+      "name": "R.V. College of Engineering",
+      "type": "University"
+    },
+    {
+      "id": "NSRCEL",
+      "name": "NSRCEL Incubator",
+      "type": "Incubator"
+    },
+    {
+      "id": "Alpha_Robotics",
+      "name": "Alpha Robotics",
+      "type": "Startup",
+      "funding": 10.0,
+      "team_size": 8,
+      "patent_count": 5,
+      "label": "High"
+    },
+    {
+      "id": "Beta_Software",
+      "name": "Beta Software",
+      "type": "Startup",
+      "funding": 60.0,
+      "team_size": 18,
+      "patent_count": 2,
+      "label": "Medium"
+    },
+    {
+      "id": "Gamma_AI",
+      "name": "Gamma AI",
+      "type": "Startup",
+      "funding": 250.0,
+      "team_size": 25,
+      "patent_count": 0,
+      "label": "Low"
+    }
+  ],
+  "links": [
+    {
+      "source": "RVCE",
+      "target": "Alpha_Robotics",
+      "type": "TECH_TRANSFER",
+      "weight": 0.95
+    },
+    {
+      "source": "NSRCEL",
+      "target": "Alpha_Robotics",
+      "type": "INCUBATED_AT",
+      "weight": 0.95
+    },
+    {
+      "source": "Alpha_Robotics",
+      "target": "Beta_Software",
+      "type": "JOINT_PATENT",
+      "weight": 0.15
+    }
+  ]
+}
