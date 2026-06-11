@@ -2,7 +2,7 @@
 
 SpilloverAI is an advanced entrepreneurship analytics platform designed to analyze, map, and predict startup success within regional innovation networks. Using Graph Deep Learning (Graph Convolutional Networks) and Network Topology analysis, the platform models knowledge flow and technology transfer dynamics across Startups, Incubators, and Universities.
 
-## 🚀 Key Features
+## Key Features
 
 *   **Graph Deep Learning (GNN)**: Implements a 2-layer Graph Convolutional Network (GCN) using PyTorch Geometric (PyG) that learns node representation embeddings directly from ecosystem topology without developer-biased manual features.
 *   **Scale Data Generation**: Includes a synthetic data generator modeling complex institutional tiers and three distinct startup profiles (*IP-Rich Bootstrappers*, *VC-Heavies*, and *Average Market Players*).
@@ -10,7 +10,7 @@ SpilloverAI is an advanced entrepreneurship analytics platform designed to analy
 
 ---
 
-## 🛠️ Repository Architecture
+## Repository Architecture
 
 ```text
 SpilloverAI/
@@ -32,7 +32,7 @@ SpilloverAI/
 
 ---
 
-## 💻 Setup & Installation Instructions
+## Setup & Installation Instructions
 
 Follow these steps to set up and run SpilloverAI locally:
 
@@ -61,7 +61,7 @@ pip install torch torch-geometric networkx pandas scikit-learn streamlit plotly 
 
 ---
 
-## 🏃 Execution Instructions
+## Execution Instructions
 
 ### A. Run CLI Pipeline (GNN Training & Metrics)
 To execute the data generator, build the network, train the GNN for 150 epochs, and display the classification report in the console:
@@ -78,7 +78,7 @@ After the server initializes, navigate to **`http://localhost:8501`** in your we
 
 ---
 
-## 📊 Analytical Insights & Methodology
+## Analytical Insights & Methodology
 
 ### Message-Passing Formulation
 The GCN operates by convolving representations across node neighborhoods:
